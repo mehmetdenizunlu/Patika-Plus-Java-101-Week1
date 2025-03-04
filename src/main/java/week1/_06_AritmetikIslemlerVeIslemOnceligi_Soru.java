@@ -27,7 +27,7 @@ public class _06_AritmetikIslemlerVeIslemOnceligi_Soru {
     }
 
     static int calculate (int a , int b, int c) {
-        return a+b*c-b;
+        return ((a+b)*c)-b;
     }
 
 
