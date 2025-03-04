@@ -19,7 +19,7 @@ public class _01_VucutKitleIndeksi {
         System.out.println("Lütfen Boyunuzu (metre cinsinden) giriniz");
         double boy = scan.nextDouble();
 
-        double kitleIndeks= kilo/(boy*boy) ;
+        double kitleIndeks= kilo/(boy*boy)  ;
 
         System.out.println("Vucut Kitle İndeksiniz :" + kitleIndeks);
 
