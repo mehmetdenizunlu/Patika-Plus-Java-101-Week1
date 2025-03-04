@@ -21,23 +21,23 @@ public class _02_ManavKasaProgramı {
         double elmaBirimFiyat = 3.67 ;
         double domatesBirimFiyat = 1.11 ;
         double muzBirimFiyat = 0.95 ;
-        double patlıcanBirimFiyat = 5;
+        double patlicanBirimFiyat = 5;
 
         System.out.println("----------------Deniz Manava Hoş Geldiniz--------------");
         Scanner scan =new Scanner(System.in);
         System.out.println("Kaç kg Armut vereyim size ?  : ");
-        double armutkg =scan.nextDouble();
+        double armutKg =scan.nextDouble();
         System.out.println("Kaç kg Elma vereyim size ? : ");
-        double elmakg = scan.nextDouble();
+        double elmaKg = scan.nextDouble();
         System.out.println("Kaç kg Domates vereyim size ? : ");
-        double domateskg = scan.nextDouble();
+        double domatesKg = scan.nextDouble();
         System.out.println("Kaç kg Muz vereyim size ? : ");
-        double muzkg =scan.nextDouble();
+        double muzKg =scan.nextDouble();
         System.out.println("Kaç kg Patlıcan vereyim size ? : ");
-        double patlıcankg= scan.nextDouble();
+        double patlicanKg = scan.nextDouble();
 
-        double totalTutar = (armutkg*armutBirimFiyat) + (elmakg*elmaBirimFiyat) + (domateskg*domatesBirimFiyat)
-                + (muzkg*muzBirimFiyat) + (patlıcankg*patlıcanBirimFiyat) ;
+        double totalTutar = (armutKg*armutBirimFiyat) + (elmaKg*elmaBirimFiyat) + (domatesKg*domatesBirimFiyat)
+                + (muzKg*muzBirimFiyat) + (patlicanKg * patlicanBirimFiyat) ;
 
         System.out.println("Toplam Tutarınız :" + totalTutar);
         System.out.println("------------------Güle Güle Yine Bekleriz---------------");
